@@ -1,0 +1,49 @@
+#Rili{
+    position: absolute;
+	padding-top: 0px;
+	padding-left: 20px;
+    width: 440px;
+    margin: 50px auto;
+}
+#Rili-zt{
+    margin: 10px;
+    position: absolute;
+    width: 420px;
+}
+#Rili-al{
+    position: relative;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+}
+.curDate{
+    color: red;
+    font-weight: bold;
+}
+#Rili-bj{
+	 background-color:#bfbfbf;
+}
+#Rili-left, #Rili-right{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+}
+#Rili-left{
+	left: 0px;
+}
+#Rili-right{
+	right: 0px;
+}
+#Rili-left:hover, #Rili-right:hover{
+    background-color:#999999;
+}
+#week td{
+    font-size: 15px;
+}
+td{
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    font-family: Simsun;
+    font-size: 20px;
+}

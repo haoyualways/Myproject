@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+#S1{
+	font-size: 30px; /*设置字体大小*/
+	float:right; /*定义元素向右浮动*/
+	margin-top: 200px; /*上外边距*/
+	margin-right: 100px; /*左外边距*/
+}
+#S2{
+	font-size: 30px;
+	float:right;
+	margin-top: 200px;
+	margin-right: 100px;
+	display: none; /*设置元素隐藏*/
+}

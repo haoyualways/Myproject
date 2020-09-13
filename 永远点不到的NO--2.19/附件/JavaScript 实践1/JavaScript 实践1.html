@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+	<link rel="stylesheet" type="text/css" href="JavaScript 实践1.css">
+	<style type="text/css">
+		html,body{
+            height: 100%;
+        }
+	</style>
+	<script type="text/javascript">
+		function T1(){
+		document.getElementById("S1").style.display="none"; /*获取鼠标点击，点击图片时隐藏第一段文字*/
+		document.getElementById("S2").style.display="inline"; 
+	}
+	</script>
+
+</head>
+
+<body>
+	<div id="JS实践1"> <!--div(分块)  id=div的名字(方便后面CSS里面修改属性)-->
+    <img src="img/图一.jpg" width="800" height="600" onClick="T1()" alt="无法获取到图片" />  <!--img（插入图片）width图片的长度 height图片高度) onClick="T1"定义一个鼠标点击事件 alt当图片显示不出来的时候显示alt后面的内容-->
+		<p id="S1">这是JavaScript的第一次实践</p> <!--p定义段落，第一次显示的内容-->
+		<p id="S2">第二次显示的内容</p> <!--p定义段落，鼠标点击后第二次显示的内容-->
+	</div>
+	<!--获取鼠标点击次数-->
+	<script language="javascript">
+		var times = 0;//点击次数
+		var preClickTime ;//上一次点击的时间（毫秒）
+		var currentClickTime;//当前点击时间
+		document.body.onclick=function countClickedTimes(){
+			if(times === 0){
+				preClickTime = new Date().getTime();//首次点击的时间
+				times ++;
+				alert("当前点击次数:"+times);  //输出当前点击次数
+				return;
+			}
+			currentClickTime = new Date().getTime();
+			if((currentClickTime - preClickTime) < 1000) {  //如果是1秒内重复点击
+				alert("您的点击速度过快，请稍后再试");
+				preClickTime = currentClickTime;   //将当前点击时间赋值给上一次点击时间
+				return;
+			} 
+			preClickTime = currentClickTime;
+			times ++ ;
+			alert("当前点击次数:"+times); 
+		}
+	</script>
+</body>
+</html>

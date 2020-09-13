@@ -1,0 +1,57 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("../img/soft_wallpaper.png");
+}
+#daohanglan{
+	height: 50px;   /*高度改为55*/
+	width:100.5%;
+	margin-left: -10px; /*左外边距为-10*/
+	background:#444;   /*背景颜色*/
+	position:absolute;  /*生成绝对定位*/
+	top: 55px; /*距离顶部的距离为55*/
+	margin-bottom: 5px;  /*设置下外边框距*/
+}
+#daohanglanfu{
+	width: 81.9%;
+	margin-left:260px;  /*左外边距为260*/
+	margin-top: 12px;   /*上外边距为12*/
+}
+#daohanglan tr{
+	/* 清除ul标签的默认样式 */
+    width:auto; /*宽度也改为自动*/
+    white-space:nowrap;  /*处理元素里的空白*/
+    overflow: hidden;  /*内容溢出时剪切掉溢出部分*/
+}
+#daohanglan th{ 
+	position: relative; /*生成相对定位*/
+	width: 125px;  /*设置th的大小*/
+	top:-15px;  /*把图像的上边缘设置在其包含元素上边缘之下15像素高的位置*/
+	float:left;   /*向左对齐*/
+	font-size: 16.5px;   /*字体大小*/
+	margin-right:0.15%;  /*文字间距*/
+    overflow: hidden; /*当规定内容溢出时，执行hidden剪切掉溢出部分*/
+}
+#daohanglan th a{
+	/* 设置链接内容显示的格式*/
+	display: block;  /*设置链接成为块状点击*/
+	height: 22.5px;  /*设置块状的大小*/
+	padding: 13.5px; /*设置内边距*/
+	color: aliceblue; /*设置文本内容为白色*/
+	text-align: center;  /*居中对齐*/
+	text-decoration: none; /* 隐藏下划线*/
+}
+#daohanglan th a:hover{
+	background-color:#939393;
+}
+.footer-txt {
+    color: #666;
+    padding-top: 750px;
+	font-size: 18px;
+    text-align: center; /*居中*/
+}
+#shijian{                                                                               
+	margin-left: 67%;
+	height: 100px;
+	font-size: 30px;
+}

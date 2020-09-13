@@ -1,0 +1,320 @@
+@charset "utf-8";
+/* CSS Document */
+#myInput {
+    background-image: url('https://static.runoob.com/images/mix/searchicon.png'); /* 搜索按钮 */
+    background-position: 10px 12px; /* 定位搜索按钮 */
+    background-repeat: no-repeat; /* 不重复图片*/
+    width: 95.65%;
+    font-size: 16px; /* 加大字体 */
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+}
+#myUL {
+    /* 移除默认的列表样式 */
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+#myUL li a {
+    border: 1px solid #ddd; /* 链接添加边框 */
+    margin-top: -1px;
+    background-color: #f6f6f6;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block;
+}
+#myUL li a.header {
+    background-color: #e2e2e2;
+    cursor: default;
+}
+#myUL li a:hover:not(.header) {
+    background-color: #eee;
+}
+/*主体*/
+#tu1{
+	position: absolute; /*生成绝对定位*/
+	left: 268px;
+	top: 700px;
+}
+#tu2{
+	position: absolute; /*生成绝对定位*/
+	left: 268px;
+	top: 1300px;
+}
+#tu3{
+	position: absolute; /*生成绝对定位*/
+	left: 268px;
+	top: 1550px;
+}
+#tu4{
+	position: absolute; /*生成绝对定位*/
+	left: 268px;
+	top: 1800px;
+}
+#h1{
+	position: absolute; /*生成绝对定位*/
+	left: 575px;
+	top: 700px;
+	width: 450px;
+	height: 200px;
+}
+#h2{
+	position: absolute; /*生成绝对定位*/
+	left: 575px;
+	top: 1300px;
+	width: 450px;
+	height: 200px;
+}
+#h3{
+	position: absolute; /*生成绝对定位*/
+	left: 575px;
+	top: 1550px;
+	width: 450px;
+	height: 200px;
+}
+#h4{
+	position: absolute; /*生成绝对定位*/
+	left: 575px;
+	top: 1800px;
+	width: 450px;
+	height: 200px;
+}
+#jianjie{
+	left: 250px;
+	top: 120px;
+	width: 800px;
+	height: 220px;
+	background: #FFFFFF;
+}
+/* 设置宽度高度背景颜色 */
+#daohanglan{
+	height: 55px;   /*高度改为自动高度*/
+	width: 100%;
+	margin-left: 0px;
+	background: rgb(189,181,181);
+	position:absolute;  /*生成绝对定位*/
+	top: 55px; /*距离顶部的距离为55*/
+	margin-bottom: 5px;  /*设置下外边框距*/
+}
+.yousanjiao1{
+	width:100px;
+    height:0;
+    border-top:6px solid transparent; /*设置上边框样式*/
+    border-bottom: 6px solid transparent; /*设置下边框样式*/
+    border-left: 6px solid #807F7F;  /*设置左边框样式*/
+	margin: 25px;  /*设置三角形的间距*/
+	margin-left: 70px;
+}
+.yousanjiao2{
+	width:100px;
+    height:0;
+    border-top:6px solid transparent;  /*设置上边框样式*/
+    border-bottom: 6px solid transparent;  /*设置下边框样式*/
+    border-left: 6px solid #807F7F; /*设置左边框样式*/
+	margin: 25px;  /*设置三角形的间距*/
+	margin-top: -71.5px;
+	margin-left: 300px;
+}
+.yousanjiao3{
+	width:5px;
+    height:0;
+    border-top:6px solid transparent; /*设置上边框样式*/
+    border-bottom: 6px solid transparent; /*设置下边框样式*/
+    border-left: 6px solid #807F7F; /*设置左边框样式*/
+	margin: -50px;  /*设置三角形的间距*/
+	margin-top: -25px;
+	margin-left: 600px;
+}
+#sanbiao1{
+	width: 150px;
+	margin-top: -117px;
+	margin-left: 85px;
+}
+#sanbiao2{
+	position: absolute;
+	width: 240px;
+	margin-top: -83px;
+	margin-left: 315px;
+}
+#sanbiao3{
+	position: absolute;
+	width: 130px;
+	margin-left: 613px;
+	margin-top: -9px;
+}
+#daohanglan ul{
+	/* 清除ul标签的默认样式 */
+    width:auto; /*宽度也改为自动*/
+    list-style-type: none; /*属性设置列表项标记的类型*/
+    white-space:nowrap; /*规定段落中不换行*/
+    overflow: hidden; /*当规定内容溢出时，执行hidden剪切掉溢出部分*/
+    margin-left: 16.5%;  /*左外边距*/
+    padding:0px; /*简写属性在一个声明中设置所有内边距属性*/
+}
+#daohanglan li{
+	float:left; /* 使li内容横向浮动，即横向排列  */
+	font-size:15.5px;  /*设置字体大小*/
+    margin-right:7%;  /* 两个li之间的距离*/
+    position: relative;  /*生成相对定位*/
+    overflow: hidden; /*当规定内容溢出时，执行hidden剪切掉溢出部分*/
+}
+#daohanglan li a{
+	/* 设置链接内容显示的格式*/
+    display:block; /* 把链接显示为块元素可使整个链接区域可点击 */
+    color:white; /*规定文本的颜色,white白色*/
+    text-align: center; /*规定文本水平对齐方式，center对齐到中间*/
+    padding: 1px; /*设置内边距,默认为上-右-下-左*/
+    overflow:hidden; /*当规定内容溢出时，执行hidden剪切掉溢出部分*/
+    text-decoration: none;  /* 去除下划线 */
+}
+#daohanglan li a:hover{
+	background-color: #111; /*鼠标停留时背景颜色*/
+}
+#daohanglan ul li ul{
+	/* 设置二级菜单 */
+	margin-top: 13px;
+    margin-left: -0.2px; /*左外边距*/
+    background:rgb(189, 181, 181); /*背景颜色*/
+    position: relative; /*生成相对定位*/
+    display: none; /* 默认隐藏二级菜单的内容 */
+}
+#daohanglan ul li ul{
+z-index:777; /*元素的堆叠顺序，数字越高优先级越大*/
+}
+#daohanglan ul li ul li{
+    /* 二级菜单li内容的显示 */
+	font-size:100%; /*设置下拉文本大小*/
+    float:none; /*默认值。元素不浮动，并会显示在其在文本中出现的位置。*/
+	width: 90px;
+    text-align: center; /*规定文本水平对齐方式,center对齐到中间*/
+}
+#daohanglan ul li:hover ul{
+    /* 鼠标选中二级菜单内容时 */
+    display: block; /*将链接显示为块状元素可以使整个链接区可以点击*/
+}
+body{
+    background:#eff3f5;
+}
+#kuaisu{
+	margin-left: 241.5px;
+	margin-top: 877px;
+}
+#biaodan1{
+	font-size: 13.5px;
+	width: 750px;
+}
+/*隐藏表单中除下以外的框线，并将他换为虚线*/
+#biaodan1 tr td{
+	border: none; /*简写属性在一个声明设置所有的边框属性*/
+	border-bottom: dashed 1px #8F8F8F; /*显示下边框*/
+}
+.xiabiao ul:after,.xiabiao:after{
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.xiabiao, .xiabiao ul{
+	zoom:1;
+}
+.xiabiao{
+	width: 1040px;
+	margin: 30px auto;
+    font-size: 14px;
+    color: #888;
+    zoom: 1;
+	margin-left: 120px;
+}
+.xiabiao .link_column{
+	float: left;
+    border-right: 1px solid #dcdcdc;
+    width: 259px
+}
+.xiabiao .last{
+	width: 259px;
+	border-right: 0 none;
+}
+.xiabiao .title{
+	margin-bottom: 18px;
+	font-weight: 400; /*设置文本粗细*/
+	font-size: 24px;
+	text-align: center;  /*居中文本内容*/
+	font-family: adamina;
+}
+.xiabiao .title i{
+	display:inline-block;
+	width: 22px;
+	height: 22px;
+	background:url("../舌尖中国img/下标.png") no-repeat;
+	vertical-align: -3.5px; /*设置图片垂直对齐方式*/
+	margin-right: 13px;  /*图标与文字间隔*/
+}
+/*设置小图标位置*/
+.xiabiao .title .ico_guide {
+    background-position: 0 0   
+}
+.xiabiao .title .ico_answer {
+    background-position: -32px 0
+}
+.xiabiao .title .ico_feedback {
+    background-position: -64px 0
+}
+.xiabiao .title .ico_cooperation {
+    background-position: -96px 0
+}
+.xiabiao ul{
+	width: 200px;
+    margin: 0 auto;
+	list-style: none;
+    zoom: 1;
+}
+.xiabiao li{
+	float: right;  /*文本内容对齐方式*/
+    width: 85px;
+	font-size: 14px;
+    padding: 0 10px 0 0;
+    margin-bottom: 7px;
+    text-align: right; /*右对齐文本*/
+}
+.xiabiao .left{
+	text-align: left; /*文本对齐方式左*/
+    padding: 0 0 0 15px;
+}
+.xiabiao li a{
+	color: #888;
+}
+.xiabiao li a:hover{
+	color: #474747;  /*鼠标经过时*/
+}
+/*备案号*/
+.footer-list {
+    font-size: 0;
+    text-align: center
+}
+.footer-list .footer-item {
+    display: inline-block; /*生成行内块元素*/
+    font-size: 14px;
+    color: #818181
+}
+.footer-list .footer-item:before {
+    content: '';
+    display: inline-block; 
+    width: 1px;
+    height: 8px;
+    background: #c7c7c8;
+    vertical-align: middle; /*生成行内块元素*/
+    margin: 0 20px;
+}
+.footer-list .footer-item:first-child:before {
+    display: none; /*隐藏此元素*/
+}
+.footer-txt {
+    color: #666;
+    padding-top: 9px;
+    text-align: center; /*居中*/
+}
+.xuxian{
+	color: #7E7E7E;
+}

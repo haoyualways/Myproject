@@ -1,0 +1,508 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	margin: 0px;
+	background:url("../img/soft_wallpaper.png");
+}
+.daohanlan{
+	width: 100%;
+	margin-top: 10px;
+	height: 50px;
+	background: #444;
+}
+.biaodan{
+	height: 50px;
+	padding-left:250px;
+}
+.biaodan1{
+	text-align: center;
+	width: 150px;
+}
+.daohanlan tr{
+	width: auto;
+	white-space:normal;
+	overflow: hidden;
+}
+.daohanlan a{
+	position: relative;
+	font-size: 18px;
+	padding: 11px;
+	margin-top: -3px;
+	display: block;
+	height: 28px;
+	color: aliceblue;
+	text-decoration: none;
+}
+.daohanlan a:hover{
+	background-color:#939393; 
+}
+.video_main{
+	width: 36%;
+	margin-top: 20px;
+	background:#D5D5D5;
+	margin-left: 20px;
+	height: 1070px;
+	/*添加边框以及阴影边框*/
+	border: 1px solid #C1C1C1;
+	-webkit-box-shadow:#666 0px 0px 20px;
+	-moz-box-shadow:#666 0px 0px 20px;
+	box-shadow: #666 0px 0px 20px;
+}
+#videoPlay1{
+	margin-left: -24px;
+	margin-top: 20px;
+	width: 480px;
+	height: 250px;
+}
+/*隐藏ul中的小圆点*/
+ul{
+	list-style-type: none;
+}
+.jieshao{
+	margin-left: 20px;
+}
+.jieshao td{
+	padding-left: 5px; /*文字左边距*/
+	border: none;
+	border-bottom:1px dashed #909090;
+}
+/*隐藏下划线*/
+a{
+	text-decoration: none;
+}
+.tuwen{
+	background:#D5D5D5;
+	margin-left: 40%;
+	width: 58%;
+	margin-top: -1073px;
+	height: 1070px;
+	/*添加框线及阴影*/
+	border: 1px solid #C1C1C1;
+	-webkit-box-shadow:#666 0px 0px 30px;
+	-moz-box-shadow:#666 0px 0px 30px;
+	box-shadow: #666 0px 0px 30px;
+}
+#btn1{
+	width: 310px;
+	height: 290px;
+	margin-top: 10px;
+	margin-left: 250px;
+}
+#btn{
+	width: 310px;
+	height: 290px;
+	margin-top: 10px;
+	margin-left: 250px;
+	opacity: 1;
+	-webkit-animation:rotateImg 100s linear infinite;  /*旋转图片*/
+	vertical-align: middle;
+}
+/*旋转方向与度数正数顺时针，负数逆时针*/
+@keyframes rotateImg {
+  0% {transform : rotate(0deg);}
+  100% {transform : rotate(360deg);}
+}
+
+@-webkit-keyframes rotateImg {
+    0%{-webkit-transform : rotate(0deg);}
+  100%{-webkit-transform : rotate(360deg);}
+}
+
+#wenzijieshao{
+	margin-top: 330px;
+}
+.wenzijieshao1{
+	font-size: 16px;
+	margin-left:10px;
+}
+.daibiao{
+	margin-left: 41.5%;
+	width: 58%;
+	height: 1900px;
+	margin-top: 20px;
+}
+.db1{
+	width: 200px;
+	height: 250px;
+}
+.db1f{
+	width: 200px;
+	height: 250px;
+	margin-left: 100px;
+}
+.db1b{
+	position: absolute;
+	width: 200px;
+	height: 250px;
+	margin-left: 90px;
+}
+.db2{
+	position: absolute;
+	margin-top: 10px;
+	width: 200px;
+	height: 240px;
+}
+.db2f{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.db2b{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 600px;
+}
+.db3{
+	position: absolute;
+	margin-top: 10px;
+	width: 200px;
+	height: 240px;
+}
+.db3f{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.db3b{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 600px;
+}
+.db4{
+	position: absolute;
+	margin-top: 10px;
+	width: 200px;
+	height: 240px;
+}
+.db4f{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.db4b{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 600px;
+}
+.db5{
+	position: absolute;
+	margin-top: 10px;
+	width: 200px;
+	height: 240px;
+}
+.db5f{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.db5b{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 600px;
+}
+.db6{
+	position: absolute;
+	margin-top: 10px;
+	width: 200px;
+	height: 240px;
+}
+.db6f{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 300px;
+}
+.db6b{
+	position: absolute;
+	width: 200px;
+	height: 240px;
+	margin-top: 10px;
+	margin-left: 600px;
+}
+.wen1{
+	font-size: 13px;
+	width: 200px;
+	height: 100px;
+}
+.wen1a{
+	font-size: 13px;
+	width: 200px;
+	margin-left: 300px;
+	margin-top: -114px;
+	height: 100px;
+}
+.wen1b{
+	font-size: 13px;
+	width: 200px;
+	margin-left: 600px;
+	margin-top: -114px;
+	height: 100px;
+}
+.jingli{
+	position: absolute;
+	width: 38.5%;
+	height: 2400px;
+	margin-left: 20px;
+	margin-top: 30px;
+	background: #D5D5D5;
+	/*阴影及边框*/
+	border: 1px solid #C1C1C1;
+	-webkit-box-shadow:#666 0px 0px 30px;
+	-moz-box-shadow:#666 0px 0px 30px;
+	box-shadow: #666 0px 0px 30px;
+}
+.wen2{
+	padding-left: 10px;
+	padding-right: 5px;
+	padding-top: 200px;
+}
+.T1{
+	position:absolute;
+	padding-top: 10px;
+	padding-left: 9px;
+	height: 200px;
+	width: 530px;
+	
+}
+.T2{
+	position: absolute;
+	padding-left: 9px;
+	width: 265px;
+	height: 300px;
+	border: 1px solid #B8B8B8;
+}
+.T3{
+	padding-left: 274px;
+	width: 265px;
+	height: 300px;
+	border: 1px solid #B8B8B8;
+}
+.T4{
+	padding-top: 10px;
+	padding-left: 9px;
+	height: 200px;
+	width: 530px;
+}
+.T5{
+	margin-left: 390px;
+	margin-top: -10px;
+	width: 150px;
+	height: 200px;
+}
+.T6{
+	padding-left: 9px;
+	height: 200px;
+	width: 530px;
+}
+.T7{
+	padding-top: 10px;
+	padding-left: 9px;
+	height: 200px;
+	width: 530px;
+}
+.z1{
+	position: absolute;
+	font-size: 13px;
+	margin-left: 20px;
+	margin-top: -2px;
+}
+.z2{
+	margin-left: 10px;
+	margin-right: 9px;
+	padding-top: 10px;
+}
+.z3{
+	width: 380px;
+	margin-top: -205px;
+	padding-left: 10px;
+	margin-right: 10px;
+}
+.z4{
+	margin-left: 10px;
+	margin-right: 9px;
+	margin-top: 20px;
+}
+.z5{
+	font-size: 13px;
+	margin-left: 20px;
+	margin-top: -2px;
+}
+.z6{
+	margin-left: 10px;
+	margin-right: 9px;
+}
+.z7{
+	margin-left: 10px;
+	margin-right: 9px;
+	margin-top: -15px;
+}
+.z8{
+	margin-left: 10px;
+	margin-right: 9px;
+	margin-top: -10px;
+}
+.z9{
+	margin-left: 10px;
+	margin-right: 9px;
+	margin-top: -10px;
+}
+.z10{
+	margin-left: 10px;
+	margin-right: 9px;
+	margin-top: -10px;
+}
+.z11{
+	margin-left: 10px;
+	margin-right: 9px;
+	margin-top: -10px;
+}
+.z12{
+	margin-top: 20px;
+}
+.z13{
+	margin-top: 0px;
+}
+.z14{
+	margin-top: -10px;
+}
+.g1{
+	font: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font-size: 40px;
+	color: #474747;
+}
+.paixu{
+	position: absolute;
+	margin-top: -15px;
+	margin-left: -10px;
+	width: 700px;
+	height: 100px;
+}
+.xiabiao ul:after,.xiabiao:after{
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.xian1{
+	width: 1420px;
+	margin-top: 550px;
+}
+.xiabiao, .xiabiao ul{
+	zoom:1;
+}
+.xiabiao{
+	width: 1040px;
+	margin: 30px auto;
+    font-size: 14px;
+    color: #494949;
+    zoom: 1;
+	margin-left: 300px;
+	padding-top: 30px;
+}
+.xiabiao .link_column{
+	float: left;
+    border-right: 1px solid #dcdcdc;
+    width: 259px
+}
+.xiabiao .last{
+	width: 259px;
+	border-right: 0 none;
+}
+.xiabiao .title{
+	margin-bottom: 18px;
+	font-weight: 400; /*设置文本粗细*/
+	font-size: 24px;
+	text-align: center;  /*居中文本内容*/
+	font-family: adamina;
+}
+.xiabiao .title i{
+	display:inline-block;
+	width: 22px;
+	height: 22px;
+	background:url("../舌尖中国img/下标.png") no-repeat;
+	vertical-align: -3.5px; /*设置图片垂直对齐方式*/
+	margin-right: 13px;  /*图标与文字间隔*/
+}
+/*设置小图标位置*/
+.xiabiao .title .ico_guide {
+    background-position: 0 0   
+}
+.xiabiao .title .ico_answer {
+    background-position: -32px 0
+}
+.xiabiao .title .ico_feedback {
+    background-position: -64px 0
+}
+.xiabiao .title .ico_cooperation {
+    background-position: -96px 0
+}
+.xiabiao ul{
+	width: 200px;
+    margin: 0 auto;
+	list-style: none;
+    zoom: 1;
+}
+.xiabiao li{
+	float: right;  /*文本内容对齐方式*/
+    width: 85px;
+	font-size: 14px;
+    padding: 0 10px 0 0;
+    margin-bottom: 7px;
+    text-align: right; /*右对齐文本*/
+}
+.xiabiao .left{
+	text-align: left; /*文本对齐方式左*/
+    padding: 0 0 0 15px;
+}
+.xiabiao li a{
+	color: #888;
+}
+.xiabiao li a:hover{
+	color: #474747;  /*鼠标经过时*/
+}
+/*备案号*/
+.footer-list {
+    font-size: 0;
+    text-align: center;
+	margin-left: 10px;
+}
+.footer-list .footer-item {
+    display: inline-block; /*生成行内块元素*/
+    font-size: 14px;
+    color: #818181
+}
+.footer-list .footer-item:before {
+    content: '';
+    display: inline-block; 
+    width: 1px;
+    height: 8px;
+    background: #c7c7c8;
+    vertical-align: middle; /*生成行内块元素*/
+    margin: 0 20px;
+}
+.footer-list .footer-item:first-child:before {
+    display: none; /*隐藏此元素*/
+}
+.footer-txt {
+    color:#272727;
+	height: 100px;
+    padding-top: 9px;
+    text-align: center; /*居中*/
+}
